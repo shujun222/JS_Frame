@@ -1,0 +1,15 @@
+{
+  "name": "webpack_experience",
+  "version": "1.0.0",
+  "description": "webpack 初体验",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "shujun",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.12.2",
+    "webpack-cli": "^4.3.1"
+  }
+}

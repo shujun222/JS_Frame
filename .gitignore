@@ -1,0 +1,12 @@
+
+# dependencies
+node_modules
+.umi
+build
+dist
+yarn.lock
+package-lock.json
+.vscode
+
+
+

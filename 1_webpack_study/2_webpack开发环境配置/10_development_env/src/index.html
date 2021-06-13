@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开发环境配置</title>
+</head>
+<body>
+    <div id="title">集合了开发环境所有配置，集大成者</div>
+    
+    <div class="less_block">
+        1. 打包js不用额外工作，webpack默认就是支持的
+    </div>
+    
+    <div class="less_block">
+        2. 打包css, less资源文件，此处需要loader的支持</p>
+        style-loader, css-loader, less-loader
+    </div>
+    
+    <div class="less_block">
+        3. 打包html, 需要plungins支持 </p>
+        HtmlWebpackPlugin
+    </div>
+
+    <div class="less_block">
+        4. 打包picture也是可以的，需要loader </p>
+        a. css中引入图片：需要url-loader</br>
+        超过limit大小图片，保留原图
+        <div id="hero"> </div>
+        小于limit大小图片，压缩为base64
+        <div id="serven"> </div>
+        b. img中插入图片: 需要先经过html-loader处理，然后是url-loader 
+        <div>
+            <img src="./imgs/xiaowu.png">
+        </div>
+    </div>
+    
+    <div class="less_block">
+        5. 打包media, 字体等，此处暂时省略不讨论了
+    </div>
+
+    <div class="less_block">
+        6. 为了方便开发者模式，可以配置 devServer; </p>
+        devServer只会在内存中编译打包，不会产生build文件夹
+    </div>
+</body>
+</html>

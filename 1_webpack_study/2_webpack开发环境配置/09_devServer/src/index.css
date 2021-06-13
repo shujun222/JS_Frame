@@ -1,0 +1,10 @@
+body {
+    background: yellow;
+}
+
+#show {
+    background-image: url('./tangsan.png');
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+}

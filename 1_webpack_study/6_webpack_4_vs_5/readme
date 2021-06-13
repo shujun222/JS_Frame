@@ -1,0 +1,22 @@
+webpack4我们就不过多研究了，主要是之前也不会用；
+
+webpack5:
+if(npm i -g webpack了)：
+    不需要package.json(webpack4应该也不需要)，
+    也不一定需要 webpack.config.js
+但是如果默认得按照规矩来，否则报错：
+ERROR in main
+Module not found: Error: Can't resolve './src'
+
+也就是说默认配置：
+entry: './src/index.js',
+output: {
+    path: resolve(__dirname, 'dist'),
+    filename: '[name].js'
+},
+
+1. 直接执行 webpack --mode production
+2. 新建一个 webpack.config.js
+module.exports = {
+    mode: 'production'
+}

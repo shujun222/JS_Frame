@@ -1,0 +1,9 @@
+https://www.bilibili.com/video/BV1e7411j7T5?p=27
+
+pwa技术：离线也能访问页面的技术  渐进式网络开发应用程序
+听起来很酷，但是感觉用途不大吧，等有使用的的时候再来细细研究
+
+1. 下载 HtmlWebpackPlugin插件
+2. 进行一些代码配置
+
+

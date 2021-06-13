@@ -1,0 +1,19 @@
+#title {
+    color: red;
+    font-size: 22px;
+    text-align: center;
+}
+
+#hero {
+    background-image: url('../imgs/tangsan.png');
+    background-size: 100% 100%;
+    width: 355px;
+    height: 297px;
+}
+
+#serven{
+    background-image: url('../imgs/serven.jpg');
+    background-size: 100% 100%;
+    width: 658px;
+    height: 370px;
+}
