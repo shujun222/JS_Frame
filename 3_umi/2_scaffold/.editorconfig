@@ -1,4 +1,5 @@
-# http://editorconfig.org
+# http://editorconfig.org   https://www.cnblogs.com/xieqian/p/10045610.html
+# 这个文件是告诉不同编辑器，idea的：要遵循这些代码风格
 root = true
 
 [*]

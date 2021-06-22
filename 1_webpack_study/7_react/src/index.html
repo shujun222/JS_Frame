@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+</head>
+<body>
+    <h1 id="title">webpack中如何直接使用react呢？</h1>
+    <pre>
+        太难了，简直是个噩梦
+        1. npm i react react-dom 
+        2. npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --dev
+        3. webpack.config中需要配置 babel-loader
+        4. 新建文件 .babelrc 
+           jsx是用es6语法编写的，因此需要通过label来解析，那么实际上此处还缺少一个文件，就是“.babelrc”，
+           注意这是一个名称很奇葩的文件，只有扩展名而没有文件名，该文件在windows环境下是无法通过资源管理器创建的，
+           需要到命令行下执行type null>.babelrc命令
+           或者vscode里面创建，创建时前后不要带空格哦~
+    </pre>
+    <div id="root"></div>
+</body>
+</html>
