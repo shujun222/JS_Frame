@@ -1,12 +1,12 @@
 官方教程：https://umijs.org/zh-CN
 
-1. 简洁创建应用 
+1. 简洁创建应用 1_concise
 yarn add umi  || npm install umi
 npx umi g page index
 npx umi dev
 
 
-2. 创建脚手架 && 了解大致功能
+2. 创建脚手架 && 了解大致功能 2_scaffold/3_detail
 a. 快速启动
 npx @umijs/create-umi-app  || yarn create @umijs/umi-app
 yarn

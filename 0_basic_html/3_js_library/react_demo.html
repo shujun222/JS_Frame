@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>React Demo</title>
+	<script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+	<script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+	<script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+</head>
+
+<body>
+
+	<div id="example"></div>
+	
+	<script type="text/babel">
+		class Demo extends React.Component {
+			state = {data: ["第1条数据", "第2条数据"]} 
+
+			add = () => {
+				const {data} = this.state
+				data.push("第" + (data.length+1) + "条数据")
+				this.setState({data});
+			}
+
+			render() {
+				return <div>
+					{this.state.data.map((item, index) => <li key={index}>{item}</li>)}
+					<button onClick={this.add}>添加数据</button>
+				</div>
+			}
+		}
+
+		ReactDOM.render(<Demo />, document.getElementById('example'));
+	</script>
+
+</body>
+
+</html>

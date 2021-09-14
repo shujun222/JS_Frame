@@ -1,15 +1,3 @@
-# umi project
+和 3_detail是一样的，
+这儿只是为了保持一个赶紧的脚手架框架而已
 
-## Getting Started
-
-Install dependencies,
-
-```bash
-$ yarn
-```
-
-Start the dev server,
-
-```bash
-$ yarn start
-```

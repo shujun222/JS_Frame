@@ -1,6 +1,6 @@
 export default [
     { exact: true, path: '/', redirect: "/user2"},
-    { exact: true, path: '/list2', component: 'list' },
+    { exact: true, path: '/list', component: 'list', name: '师徒四人' },
     { exact: true, path: '/user2', component: 'user' },
 
     {
