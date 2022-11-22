@@ -1,0 +1,11 @@
+{
+  "name": "app4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-router": "^12.0.0",
+    "koa2-cors": "^2.0.6"
+  }
+}
